@@ -1,0 +1,24 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{biblatex}
+
+\newcommand{\states}{\mathcal{S}}
+\newcommand{\actions}{\mathcal{A}}
+\newcommand{\Real}{\mathbb{R}}
+\newcommand{\data}{\mathcal{D}}
+
+\usepackage[margin=1.1in]{geometry}
+
+\title{Robust Probabilistic Imitation Learning}
+\author{Brendan Crowe}
+\date{December 2020}
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    As Imitation Learning (IL) becomes a more popular area of research and its applications reach real world problems, the necessity to deal with adversarial data in a structured way grows. Most approaches as of now assume the data is perfect, no adversary. However, in real world applications this assumption can be detrimental. Being able to detect and remove adversarial demonstrations is paramount for the success of IL. This paper proposes a probabilistic approach to autonomously detect and re-weight adversarial demonstrations, and learn  policy from the expert demonstrations. The problem posed in this work can then be elegantly solved using an Expectation Maximization (EM)-esque algorithm. The proposed method is statistically robust to adversarial demonstrations and thus will be titled Robust Probabilistic Imitation Learning (R-PIL). Furthermore, being probabilistic in nature, this could be used as a general method for re-weighting demonstrations in other frameworks.
+\end{abstract}
+
+\end{document}
